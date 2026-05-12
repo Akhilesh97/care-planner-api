@@ -124,3 +124,5 @@ The response includes:
 | `general_tips` | Weekly caregiver tips |
 
 For the full schema and live testing, use `/docs` after deployment.
+
+More ready-to-use endpoint examples are available in [API_EXAMPLES.md](API_EXAMPLES.md).
