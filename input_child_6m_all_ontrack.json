@@ -1,0 +1,35 @@
+{
+  "_scenario": "Baby 6 months — All domains on-track, enrichment plan",
+  "_mode_note": "LEARN: routine monitoring, all Z-scores above 65. LLM generates enrichment activities spread evenly across all 3 domains.",
+  "mode": "LEARN",
+  "age_months": 6,
+  "domain1": {
+    "name": "Motor Development",
+    "zscore": 78.0
+  },
+  "domain2": {
+    "name": "Communication",
+    "zscore": 80.5
+  },
+  "domain3": {
+    "name": "Social Engagement",
+    "zscore": 76.0
+  },
+  "day1_activities": [
+    {
+      "title": "Supported Sitting Play",
+      "description": "Prop baby in a supported sit and offer a range of textured toys to explore.",
+      "image_url": null
+    },
+    {
+      "title": "Mirror Time",
+      "description": "Hold baby in front of a mirror and name body parts they touch.",
+      "image_url": null
+    },
+    {
+      "title": "Singing Routine",
+      "description": "Sing the same 2 songs during bath and meal time to build anticipation.",
+      "image_url": null
+    }
+  ]
+}

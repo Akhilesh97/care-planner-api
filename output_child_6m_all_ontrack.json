@@ -1,0 +1,403 @@
+{
+  "_scenario": "Baby 6 months — All domains on-track. Enrichment plan, activities spread evenly across all 3 domains. Actual LLM content will vary; structure must match exactly.",
+  "child_summary": "This 7-day enrichment plan is for your 6-month-old in LEARN mode. All three domains — Motor Development (78.0), Communication (80.5), and Social Engagement (76.0) — are on-track. Activities are spread evenly across all domains to nurture well-rounded development with age-appropriate enrichment that parents can easily do at home.",
+  "focus_domains": [],
+  "plan": [
+    {
+      "day": 1,
+      "theme": "Introduction Day",
+      "activities": [
+        {
+          "title": "Supported Sitting Play",
+          "description": "Prop baby in a supported sit and offer a range of textured toys to explore.",
+          "duration": "~1 minute",
+          "steps": [
+            "Prop baby in a supported sit and offer a range of textured toys to explore."
+          ],
+          "tip": "Observe how your child responds and note any new reactions today.",
+          "image_url": null,
+          "image_keywords": ["supported", "sitting", "play"],
+          "domain_focus": "Motor Development",
+          "is_priority": false
+        },
+        {
+          "title": "Mirror Time",
+          "description": "Hold baby in front of a mirror and name body parts they touch.",
+          "duration": "~1 minute",
+          "steps": [
+            "Hold baby in front of a mirror and name body parts they touch."
+          ],
+          "tip": "Observe how your child responds and note any new reactions today.",
+          "image_url": null,
+          "image_keywords": ["mirror", "time"],
+          "domain_focus": "Communication",
+          "is_priority": false
+        },
+        {
+          "title": "Singing Routine",
+          "description": "Sing the same 2 songs during bath and meal time to build anticipation.",
+          "duration": "~1 minute",
+          "steps": [
+            "Sing the same 2 songs during bath and meal time to build anticipation."
+          ],
+          "tip": "Observe how your child responds and note any new reactions today.",
+          "image_url": null,
+          "image_keywords": ["singing", "routine"],
+          "domain_focus": "Social Engagement",
+          "is_priority": false
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "Roll & Discover",
+      "activities": [
+        {
+          "title": "Rolling Practice — Belly to Back",
+          "description": "From tummy time, gently guide baby's hip to initiate a roll onto their back.",
+          "duration": "1 minute",
+          "steps": [
+            "Place baby on their tummy on a firm mat.",
+            "Hold a bright toy to their right side at eye level.",
+            "Place your left hand gently on their right hip.",
+            "Nudge the hip forward slowly so baby rolls onto their back.",
+            "Celebrate with a big smile and repeat on the other side."
+          ],
+          "tip": "Rolling from tummy to back is a key 6-month milestone — guiding the motion teaches baby the movement pattern.",
+          "image_url": null,
+          "image_keywords": ["baby rolling tummy back", "infant roll practice"],
+          "domain_focus": "Motor Development",
+          "is_priority": false
+        },
+        {
+          "title": "Two-Sound Conversation",
+          "description": "Make two different sounds — 'ba' and 'ma' — and pause between each, inviting baby to respond.",
+          "duration": "1 minute",
+          "steps": [
+            "Hold baby face-to-face at arm's length.",
+            "Say 'ba ba ba' slowly and clearly, then pause 5 seconds.",
+            "Say 'ma ma ma' and pause 5 seconds.",
+            "When baby vocalizes — any sound — immediately copy them back.",
+            "Do 3 rounds of each sound."
+          ],
+          "tip": "Responding to baby's vocalizations teaches them that their sounds have power — the very foundation of language.",
+          "image_url": null,
+          "image_keywords": ["baby babbling parent", "infant pre-speech sounds"],
+          "domain_focus": "Communication",
+          "is_priority": false
+        },
+        {
+          "title": "Lap Bounce Song",
+          "description": "Bounce baby gently on your lap in rhythm with a simple song — stop mid-song and wait for baby to react.",
+          "duration": "1 minute",
+          "steps": [
+            "Sit baby on your lap facing you, supported at the waist.",
+            "Start bouncing gently in rhythm with a song ('Humpty Dumpty' works well).",
+            "Stop suddenly in the middle and make an expectant face.",
+            "Wait 5 seconds — baby will often bounce themselves or make a sound for 'more'.",
+            "Resume the song and repeat the pause 3 times."
+          ],
+          "tip": "Anticipation of a predictable pattern — and reacting to the gap — is one of the earliest social-cognitive skills.",
+          "image_url": null,
+          "image_keywords": ["baby lap bounce song", "infant anticipation game"],
+          "domain_focus": "Social Engagement",
+          "is_priority": false
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "Grasp & Connect",
+      "activities": [
+        {
+          "title": "Texture Basket Explore",
+          "description": "Fill a small basket with household items of different textures and let baby pull them out one by one.",
+          "duration": "2 minutes",
+          "steps": [
+            "Place 4 items of very different textures in a basket — e.g. a wooden spoon, a soft cloth, a plastic lid, a crinkle paper.",
+            "Sit baby in a supported position with the basket in front.",
+            "Let them reach in and pull out any item.",
+            "Name the texture as they touch it: 'smooth', 'soft', 'crinkly'.",
+            "When they drop it, let them choose the next one."
+          ],
+          "tip": "Tactile exploration at 6 months directly stimulates the sensory pathways that feed into fine motor control and body awareness.",
+          "image_url": null,
+          "image_keywords": ["baby texture basket explore", "infant sensory play"],
+          "domain_focus": "Motor Development",
+          "is_priority": false
+        },
+        {
+          "title": "Story Sound Effects",
+          "description": "Read a picture book but replace some words with sounds — animal noises, whoosh, pop — and pause for baby to react.",
+          "duration": "1 minute",
+          "steps": [
+            "Open a simple picture book with clear images.",
+            "Point to a dog and say 'woof woof!' instead of 'dog'.",
+            "Pause and look at baby expectantly.",
+            "When they respond (smile, sound, wiggle), nod and turn the page.",
+            "Do 5 pages with a different sound on each."
+          ],
+          "tip": "Sound effects during stories make reading interactive — baby's responses teach them that they are part of the conversation.",
+          "image_url": null,
+          "image_keywords": ["baby picture book sounds", "infant reading interaction"],
+          "domain_focus": "Communication",
+          "is_priority": false
+        },
+        {
+          "title": "Pass the Toy",
+          "description": "Hold a toy out to baby, let them take it, then hold your hand out and wait for them to hand it back.",
+          "duration": "1 minute",
+          "steps": [
+            "Sit facing baby with a bright toy in your hand.",
+            "Hold it out toward them and say 'for you!'.",
+            "Let baby take and hold the toy for 5 seconds.",
+            "Hold your open hand out and say 'my turn?'.",
+            "Wait up to 10 seconds for baby to release or hand over the toy.",
+            "Repeat 4 times."
+          ],
+          "tip": "The earliest turn-taking with objects is the same skill that eventually becomes conversation — taking and giving.",
+          "image_url": null,
+          "image_keywords": ["baby toy exchange turn taking", "infant social sharing"],
+          "domain_focus": "Social Engagement",
+          "is_priority": false
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "theme": "Sit & Sing",
+      "activities": [
+        {
+          "title": "Tripod Sitting Practice",
+          "description": "Support baby in a wide-legged sit and let them use their hands on the floor in front as a tripod for balance.",
+          "duration": "1 minute",
+          "steps": [
+            "Sit baby on a firm surface with their legs in a wide V shape.",
+            "Place their hands on the floor in front for support.",
+            "Let go for 2 seconds and watch if they hold the tripod position.",
+            "Place a toy on the floor 10 cm in front to give them a focal point.",
+            "Build to 5-second holds over 3 rounds."
+          ],
+          "tip": "The tripod sit is the 6-month stage before independent sitting — core and arm muscles develop together in this position.",
+          "image_url": null,
+          "image_keywords": ["baby tripod sitting balance", "infant independent sit practice"],
+          "domain_focus": "Motor Development",
+          "is_priority": false
+        },
+        {
+          "title": "Name That Object",
+          "description": "Slowly pull 3 common objects from a bag one at a time, name each one clearly, and let baby hold them.",
+          "duration": "1 minute",
+          "steps": [
+            "Place a spoon, a cup, and a cloth in a bag.",
+            "Pull out the spoon slowly and say 'spoon!' — hold it up clearly.",
+            "Let baby take it and hold for 5 seconds.",
+            "Take it back gently, put it aside, and pull out the next.",
+            "Repeat for all 3. On round 2, say 'where's the spoon?' and see if baby looks."
+          ],
+          "tip": "Hearing the same word repeatedly while holding and looking at the object creates lasting vocabulary links in baby's brain.",
+          "image_url": null,
+          "image_keywords": ["baby naming objects", "infant vocabulary activity"],
+          "domain_focus": "Communication",
+          "is_priority": false
+        },
+        {
+          "title": "Clap Along",
+          "description": "Hold baby's hands and clap them together in rhythm with a song — then stop and see if they try to clap.",
+          "duration": "1 minute",
+          "steps": [
+            "Sing 'If you're happy and you know it'.",
+            "During the clapping part, hold baby's hands and clap them together twice.",
+            "Repeat the verse 3 times.",
+            "On the 4th verse, let go and see if baby initiates any clapping movement.",
+            "Celebrate any arm movement as a clap."
+          ],
+          "tip": "Clapping is a bilateral motor skill and social signal — baby is learning that movement can be both fun and communicative.",
+          "image_url": null,
+          "image_keywords": ["baby clapping hands song", "infant music participation"],
+          "domain_focus": "Social Engagement",
+          "is_priority": false
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "theme": "Reach & Respond",
+      "activities": [
+        {
+          "title": "Midline Reach & Transfer",
+          "description": "Place a toy in baby's right hand and encourage them to pass it to their left hand across their midline.",
+          "duration": "1 minute",
+          "steps": [
+            "Lay baby on their back or sit them with support.",
+            "Place a small toy in their right hand.",
+            "Hold your open palm near their left hand invitingly.",
+            "Wait 10 seconds for baby to bring the toy across to the other hand.",
+            "If needed, gently guide the transfer. Repeat on the other side 3 times each."
+          ],
+          "tip": "Crossing the midline integrates both brain hemispheres — a foundational skill for reading, writing, and coordinated movement.",
+          "image_url": null,
+          "image_keywords": ["baby midline toy transfer", "infant hand coordination"],
+          "domain_focus": "Motor Development",
+          "is_priority": false
+        },
+        {
+          "title": "Where Did It Go?",
+          "description": "Hide a toy under a cloth in full view of baby and ask 'where did it go?' — watch if they reach to uncover it.",
+          "duration": "1 minute",
+          "steps": [
+            "Sit baby facing you with a bright toy between you.",
+            "Make sure baby is looking, then cover the toy with a small cloth.",
+            "Say 'where did it go?' with a curious face.",
+            "Wait 5 seconds.",
+            "If baby doesn't reach, lift a corner of the cloth to prompt them.",
+            "Repeat 4 times — vary which cloth or hand you use."
+          ],
+          "tip": "Searching for a hidden object shows object permanence is developing — baby knows things exist even when they can't see them.",
+          "image_url": null,
+          "image_keywords": ["baby object permanence hide toy", "infant find hidden object"],
+          "domain_focus": "Communication",
+          "is_priority": false
+        },
+        {
+          "title": "Stranger Warm-Up",
+          "description": "Introduce baby to a new face gradually — caregiver holds baby while the new person approaches slowly.",
+          "duration": "2 minutes",
+          "steps": [
+            "Hold baby securely facing outward.",
+            "Ask an unfamiliar person (or less-familiar family member) to stand 2 meters away.",
+            "Let the person make gentle eye contact and smile — no sudden moves.",
+            "After 30 seconds, they can take one slow step closer.",
+            "If baby is calm, the person can speak softly. Stop if baby shows distress."
+          ],
+          "tip": "Healthy stranger wariness at 6 months is normal — gradual exposure with a safe caregiver builds confident, flexible social skills.",
+          "image_url": null,
+          "image_keywords": ["baby meeting new person", "infant social confidence"],
+          "domain_focus": "Social Engagement",
+          "is_priority": false
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "theme": "Move & Laugh",
+      "activities": [
+        {
+          "title": "Supported Standing Bounce",
+          "description": "Hold baby upright so their feet touch a firm surface and let them push down and bounce.",
+          "duration": "1 minute",
+          "steps": [
+            "Hold baby upright under their arms so their feet are flat on a firm surface.",
+            "Let them feel the surface — most 6-month-olds will push down and bounce.",
+            "Allow the bouncing for 20 seconds, then let them rest.",
+            "Talk to them: 'bounce, bounce, bounce!' in rhythm.",
+            "Repeat 3 rounds."
+          ],
+          "tip": "Weight-bearing through the legs at 6 months builds the bone density and muscle tone that supports walking much later.",
+          "image_url": null,
+          "image_keywords": ["baby supported standing bounce", "infant leg weight bearing"],
+          "domain_focus": "Motor Development",
+          "is_priority": false
+        },
+        {
+          "title": "Yes & No Face",
+          "description": "Make an exaggerated 'yes' face for things baby likes and a clear 'no, yucky' face for things they don't — teach early emotional vocabulary.",
+          "duration": "1 minute",
+          "steps": [
+            "Hold a preferred toy up and say 'do you like this?' with a big happy face.",
+            "Then hold up a less preferred item and say 'yucky?' with a funny disgusted face.",
+            "Watch baby's expression and mirror their reaction back.",
+            "Try 4 different items — 2 liked, 2 not liked.",
+            "Name the emotion each time: 'happy!' or 'no, yucky!'"
+          ],
+          "tip": "Giving babies words for their reactions is the earliest emotional vocabulary — it helps them communicate preferences before they can speak.",
+          "image_url": null,
+          "image_keywords": ["baby yes no facial expression", "infant emotional vocabulary"],
+          "domain_focus": "Communication",
+          "is_priority": false
+        },
+        {
+          "title": "Blanket Swing",
+          "description": "Lay baby on a large blanket, hold each end with another adult, and gently swing side to side.",
+          "duration": "1 minute",
+          "steps": [
+            "Lay baby on a large firm blanket on the floor.",
+            "Each adult takes two corners of the blanket.",
+            "Gently lift to remove slack — baby should remain flat, not sag.",
+            "Slowly swing left and right 5 cm only, 3 times.",
+            "Lower, let baby settle, then do 2 more gentle swings."
+          ],
+          "tip": "The vestibular input from gentle swinging stimulates the balance system and often produces pure delight — shared laughter is powerful bonding.",
+          "image_url": null,
+          "image_keywords": ["baby blanket swing game", "infant vestibular play"],
+          "domain_focus": "Social Engagement",
+          "is_priority": false
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "theme": "Growing Independent",
+      "activities": [
+        {
+          "title": "Unassisted Sit for 10 Seconds",
+          "description": "Remove all support and see if baby can hold an independent sit for 10 seconds with a toy as focal point.",
+          "duration": "1 minute",
+          "steps": [
+            "Sit baby on a firm mat with legs out and your hands lightly at their hips.",
+            "Place a toy on the mat 10 cm in front.",
+            "Slowly release your hands and count silently to 10.",
+            "If baby tips, catch them gently — no alarm.",
+            "Try 3 rounds, celebrating each one."
+          ],
+          "tip": "A 10-second unassisted sit is the Day 7 goal of this week's motor work — it shows the core muscles are integrating the training.",
+          "image_url": null,
+          "image_keywords": ["baby independent sitting", "infant unassisted sit milestone"],
+          "domain_focus": "Motor Development",
+          "is_priority": false
+        },
+        {
+          "title": "My Day Story",
+          "description": "Narrate baby's whole day back to them in simple sentences at bedtime — 'we ate, we played, we bathed'.",
+          "duration": "1 minute",
+          "steps": [
+            "Hold baby in a calm, dim room at bedtime.",
+            "Speak slowly and quietly: 'today we woke up. then we had breakfast.'",
+            "Continue through the day's events in order.",
+            "Use the same 2-3 word phrases you said during each activity.",
+            "Finish with 'now it's time to sleep. good night.'"
+          ],
+          "tip": "Narrative repetition at the end of the day strengthens memory links between words and experiences — building language and routine simultaneously.",
+          "image_url": null,
+          "image_keywords": ["parent baby bedtime story routine", "infant language narrative"],
+          "domain_focus": "Communication",
+          "is_priority": false
+        },
+        {
+          "title": "Hello & Goodbye Wave",
+          "description": "Teach the wave gesture by waving to baby and waiting for any arm movement in response.",
+          "duration": "1 minute",
+          "steps": [
+            "Hold baby facing another adult standing 1 meter away.",
+            "The adult waves slowly and says 'hello!'.",
+            "You take baby's hand and wave it back, saying 'hello!'.",
+            "The adult then moves behind a door and reappears: 'hello again!'.",
+            "Repeat 4 times — try removing your hand on the last 2 to see if baby waves unprompted."
+          ],
+          "tip": "Waving is one of the first communicative gestures — learning it means baby understands that body movement sends a message to another person.",
+          "image_url": null,
+          "image_keywords": ["baby learning to wave hello", "infant gesture social"],
+          "domain_focus": "Social Engagement",
+          "is_priority": false
+        }
+      ]
+    }
+  ],
+  "general_tips": [
+    "All domains are healthy — the goal this week is enrichment, not intervention. Keep activities joyful and pressure-free.",
+    "Six months is a peak time for forming attachment — your warm, responsive presence during every activity matters more than the activity itself.",
+    "Follow baby's lead on duration — if they look away or fuss, the session is done. Ending on a positive note is always better than pushing on.",
+    "Repeat activities baby responds well to across the week — repetition is how baby brains build strong neural pathways.",
+    "Talk constantly during all activities — narrate what you see, what you are doing, and what baby is doing. Every word counts."
+  ]
+}

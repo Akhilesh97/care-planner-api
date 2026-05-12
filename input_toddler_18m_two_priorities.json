@@ -1,0 +1,35 @@
+{
+  "_scenario": "Toddler 18 months — Motor Development AND Communication both need improvement",
+  "_mode_note": "CONCERN: significant gaps, structured targeted skill-building. LLM will dedicate 2 of 3 daily activities to the two priority domains.",
+  "mode": "CONCERN",
+  "age_months": 18,
+  "domain1": {
+    "name": "Motor Development",
+    "zscore": 60.0
+  },
+  "domain2": {
+    "name": "Communication",
+    "zscore": 58.5
+  },
+  "domain3": {
+    "name": "Social Engagement",
+    "zscore": 75.0
+  },
+  "day1_activities": [
+    {
+      "title": "Ball Roll & Chase",
+      "description": "Roll a soft ball and encourage toddler to chase and bring it back.",
+      "image_url": null
+    },
+    {
+      "title": "Point & Name",
+      "description": "Point to common objects around the house, say the name, wait for imitation.",
+      "image_url": null
+    },
+    {
+      "title": "Peek-a-Boo Variations",
+      "description": "Use a cloth to hide your face and different objects. Vary pace and surprise.",
+      "image_url": null
+    }
+  ]
+}

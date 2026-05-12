@@ -1,0 +1,401 @@
+{
+  "_scenario": "Toddler 18 months — Motor Development (60.0) AND Communication (58.5) both priority. Actual LLM content will vary; structure must match exactly.",
+  "child_summary": "This 7-day plan addresses two priority areas for your 18-month-old in CONCERN mode: Motor Development (Z-score 60.0) and Communication (Z-score 58.5). Social Engagement is on-track. Each day dedicates 2 of 3 activities to the priority domains with structured, targeted skill-building that increases in difficulty across the week.",
+  "focus_domains": [
+    "Motor Development",
+    "Communication"
+  ],
+  "plan": [
+    {
+      "day": 1,
+      "theme": "Introduction Day",
+      "activities": [
+        {
+          "title": "Ball Roll & Chase",
+          "description": "Roll a soft ball and encourage toddler to chase and bring it back.",
+          "duration": "~1 minute",
+          "steps": [
+            "Roll a soft ball and encourage toddler to chase and bring it back."
+          ],
+          "tip": "Observe how your child responds and note any new reactions today.",
+          "image_url": null,
+          "image_keywords": ["ball", "roll", "chase"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "Point & Name",
+          "description": "Point to common objects around the house, say the name, wait for imitation.",
+          "duration": "~1 minute",
+          "steps": [
+            "Point to common objects around the house, say the name, wait for imitation."
+          ],
+          "tip": "Observe how your child responds and note any new reactions today.",
+          "image_url": null,
+          "image_keywords": ["point", "name"],
+          "domain_focus": "Communication",
+          "is_priority": true
+        },
+        {
+          "title": "Peek-a-Boo Variations",
+          "description": "Use a cloth to hide your face and different objects. Vary pace and surprise.",
+          "duration": "~1 minute",
+          "steps": [
+            "Use a cloth to hide your face and different objects. Vary pace and surprise."
+          ],
+          "tip": "Observe how your child responds and note any new reactions today.",
+          "image_url": null,
+          "image_keywords": ["peek", "a", "boo"],
+          "domain_focus": "Social Engagement",
+          "is_priority": false
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "Move & Talk",
+      "activities": [
+        {
+          "title": "Obstacle Walk",
+          "description": "Place soft cushions on the floor and encourage toddler to step over or around them.",
+          "duration": "2 minutes",
+          "steps": [
+            "Lay 3 soft cushions flat on the floor about 30 cm apart.",
+            "Hold toddler's hand and slowly walk toward the first cushion.",
+            "Say 'step over!' and lift your own leg to demonstrate.",
+            "Let toddler attempt each cushion — offer a hand if they wobble.",
+            "Repeat the course twice."
+          ],
+          "tip": "Stepping over objects builds leg coordination and the balance needed for running and stair climbing.",
+          "image_url": null,
+          "image_keywords": ["toddler obstacle walk", "child stepping cushions"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "Two-Word Request",
+          "description": "Ask toddler to make a two-word request ('more milk', 'big ball') before giving them what they want.",
+          "duration": "1 minute",
+          "steps": [
+            "Hold up two options — e.g. a cup of milk and a toy.",
+            "Ask 'what do you want?' and wait 5 seconds.",
+            "If they point or make a sound, say the two-word phrase clearly: 'more milk'.",
+            "Pause and wait for toddler to attempt the phrase before handing it over.",
+            "Praise any attempt — even one correct word counts."
+          ],
+          "tip": "Pausing before giving the object teaches toddlers that words get results — the most powerful communication lesson at this age.",
+          "image_url": null,
+          "image_keywords": ["toddler two word request", "child language learning"],
+          "domain_focus": "Communication",
+          "is_priority": true
+        },
+        {
+          "title": "Follow the Leader",
+          "description": "Take turns being the leader — do a simple action and ask toddler to copy, then let them lead.",
+          "duration": "1 minute",
+          "steps": [
+            "Stand facing toddler and clap your hands twice.",
+            "Say 'your turn' and wait for them to clap.",
+            "Stamp your feet twice — wait for them to copy.",
+            "Then crouch down and say 'you be the leader now' — copy whatever they do."
+          ],
+          "tip": "Turn-taking games at 18 months build the social awareness that supports both play and conversation.",
+          "image_url": null,
+          "image_keywords": ["toddler follow leader game", "child imitation play"],
+          "domain_focus": "Social Engagement",
+          "is_priority": false
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "Climb & Chat",
+      "activities": [
+        {
+          "title": "Step Up & Down",
+          "description": "Practice stepping up onto a single low step and back down with support.",
+          "duration": "2 minutes",
+          "steps": [
+            "Stand beside a single low step (e.g. a doorstep or stair) and hold toddler's hand.",
+            "Say 'up!' and let them lead the stepping-up motion.",
+            "Once up, say 'down!' and hold their hand as they step back.",
+            "Repeat 6 times, reducing how much you hold as they gain confidence."
+          ],
+          "tip": "Stair navigation at 18 months is a major motor milestone — each repetition builds leg strength and balance control.",
+          "image_url": null,
+          "image_keywords": ["toddler step climbing", "child stair practice"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "Picture Book Talk",
+          "description": "Open a picture book, point to one image at a time, and wait for toddler to name or make a sound for it.",
+          "duration": "2 minutes",
+          "steps": [
+            "Sit beside toddler with a simple picture book.",
+            "Point to one clear image — e.g. a dog — and say its name once.",
+            "Turn the page and point to the next image. Wait 5 seconds for toddler to name it.",
+            "If they are silent, say the word once and move on — no pressure.",
+            "Do 5 pages."
+          ],
+          "tip": "Labelling pictures builds vocabulary faster than any other home activity — 5 minutes a day makes a measurable difference.",
+          "image_url": null,
+          "image_keywords": ["toddler picture book", "child vocabulary building"],
+          "domain_focus": "Communication",
+          "is_priority": true
+        },
+        {
+          "title": "Sharing Circle",
+          "description": "Sit in a circle with one other adult and pass a toy around, modelling sharing and waiting.",
+          "duration": "1 minute",
+          "steps": [
+            "Sit on the floor in a triangle with toddler and one other adult.",
+            "Hold a toy and say 'my turn' then play with it for 5 seconds.",
+            "Pass it to the other adult who says 'my turn' and plays 5 seconds.",
+            "Pass it to toddler. If they don't hand it back, gently say 'pass it' and hold your hand out.",
+            "Do 3 full rounds."
+          ],
+          "tip": "Waiting for a turn is a key social-emotional skill — toddlers need to see adults model it before they can do it.",
+          "image_url": null,
+          "image_keywords": ["toddler sharing circle", "child turn taking"],
+          "domain_focus": "Social Engagement",
+          "is_priority": false
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "theme": "Balance & Words",
+      "activities": [
+        {
+          "title": "One-Foot Stand",
+          "description": "Hold toddler's hand and encourage them to lift one foot off the ground and hold for 2 seconds.",
+          "duration": "1 minute",
+          "steps": [
+            "Stand facing toddler and hold both their hands.",
+            "Say 'lift one foot!' and demonstrate with your own foot.",
+            "Support their weight as they attempt to lift one foot.",
+            "Count out loud: '1, 2' then lower.",
+            "Try both feet. Aim for 3 attempts each side."
+          ],
+          "tip": "Single-leg balance at this age activates the deep core and hip stabilisers that underpin all future movement skills.",
+          "image_url": null,
+          "image_keywords": ["toddler one foot balance", "child balance game"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "Action Word Play",
+          "description": "Do a simple action — jump, clap, run — and say the action word as you both do it together.",
+          "duration": "1 minute",
+          "steps": [
+            "Stand facing toddler.",
+            "Jump twice and say 'jump!' clearly as you do it.",
+            "Hold toddler's hands and help them jump while saying 'jump!'.",
+            "Clap hands and say 'clap!', then help them clap.",
+            "Repeat with 3 different action words."
+          ],
+          "tip": "Pairing movement with words creates a strong memory link — the body and brain learn the word together.",
+          "image_url": null,
+          "image_keywords": ["toddler action words play", "child verb learning"],
+          "domain_focus": "Communication",
+          "is_priority": true
+        },
+        {
+          "title": "Role Play Tea Party",
+          "description": "Pretend to pour tea and eat biscuits — narrate the whole scene and invite toddler to join in.",
+          "duration": "2 minutes",
+          "steps": [
+            "Sit with toddler and a cup or small bowl.",
+            "Pretend to pour tea and say 'here's your tea!'.",
+            "Wait for toddler to take the cup.",
+            "Pretend to sip and say 'mmm, yummy!' — encourage them to copy.",
+            "Extend the scene: 'more tea?', 'too hot?', 'share some?'"
+          ],
+          "tip": "Pretend play at 18 months is a window into imagination and language — narrating the scene teaches sentence structure naturally.",
+          "image_url": null,
+          "image_keywords": ["toddler pretend play tea", "child imaginative play"],
+          "domain_focus": "Social Engagement",
+          "is_priority": false
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "theme": "Throw & Tell",
+      "activities": [
+        {
+          "title": "Underarm Throw Practice",
+          "description": "Teach an underarm throw by rolling a ball, then progressing to a low toss into a basket.",
+          "duration": "2 minutes",
+          "steps": [
+            "Place a washing basket or large bowl 1 meter away from toddler.",
+            "Hand toddler a soft ball and say 'throw it in!'.",
+            "Demonstrate a gentle underarm toss into the basket.",
+            "Help toddler's arm through the throwing motion if needed.",
+            "Move basket closer or further to match their ability. Do 6 attempts."
+          ],
+          "tip": "Throwing involves coordinating shoulder, elbow, and wrist in sequence — this is complex motor planning for an 18-month-old.",
+          "image_url": null,
+          "image_keywords": ["toddler throwing ball basket", "child motor play"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "What's in the Bag?",
+          "description": "Put 3 familiar objects in a bag and ask toddler to name each one as they pull it out.",
+          "duration": "2 minutes",
+          "steps": [
+            "Place 3 common objects (spoon, toy car, sock) in a cloth bag.",
+            "Hold the bag toward toddler and say 'what's in the bag?'.",
+            "Let them reach in and pull out one object.",
+            "Wait 5 seconds for them to name it. If silent, say the word once.",
+            "Repeat for all 3 objects. Try a second round with new objects."
+          ],
+          "tip": "Surprise and curiosity make words stick — toddlers remember words better when they discover the object themselves.",
+          "image_url": null,
+          "image_keywords": ["toddler naming objects bag", "child vocabulary activity"],
+          "domain_focus": "Communication",
+          "is_priority": true
+        },
+        {
+          "title": "Dance Together",
+          "description": "Put on a short song and dance together — copy each other's moves and laugh together.",
+          "duration": "1 minute",
+          "steps": [
+            "Play a short, upbeat children's song.",
+            "Hold toddler's hands and sway side to side.",
+            "Let go and let toddler move freely — copy whatever they do.",
+            "Clap together at the end and say 'yay!'."
+          ],
+          "tip": "Shared joy through movement builds emotional connection and body rhythm — both support future communication.",
+          "image_url": null,
+          "image_keywords": ["toddler parent dancing", "child music movement"],
+          "domain_focus": "Social Engagement",
+          "is_priority": false
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "theme": "Run & Request",
+      "activities": [
+        {
+          "title": "Kicking a Stationary Ball",
+          "description": "Place a soft ball still on the floor and encourage toddler to kick it toward a target.",
+          "duration": "2 minutes",
+          "steps": [
+            "Place a soft ball 30 cm in front of toddler.",
+            "Point to a cushion 2 meters away and say 'kick it to the pillow!'.",
+            "Demonstrate by kicking the ball gently toward the target.",
+            "Let toddler approach and kick — hold their hand for balance if needed.",
+            "Fetch and repeat 6 times."
+          ],
+          "tip": "Kicking requires transferring weight onto one foot while the other swings — a major balance and coordination challenge.",
+          "image_url": null,
+          "image_keywords": ["toddler kicking ball", "child foot coordination"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "Describe the Feeling",
+          "description": "Touch different textures together — rough, soft, cold, warm — and say the word each time.",
+          "duration": "1 minute",
+          "steps": [
+            "Gather 3 items of different textures: a rough towel, a soft cloth, a cold spoon.",
+            "Touch the rough towel and say 'rough!'.",
+            "Take toddler's hand and touch the same item. Say 'rough!' again.",
+            "Repeat with each item.",
+            "On the second round, touch the item and wait — see if toddler says the word."
+          ],
+          "tip": "Describing sensory experiences gives toddlers the vocabulary to express how they feel — a key step in emotional communication.",
+          "image_url": null,
+          "image_keywords": ["toddler texture sensory language", "child feeling words"],
+          "domain_focus": "Communication",
+          "is_priority": true
+        },
+        {
+          "title": "Parallel Play Alongside",
+          "description": "Sit beside toddler doing the same activity — building blocks — without directing or correcting them.",
+          "duration": "2 minutes",
+          "steps": [
+            "Sit beside toddler with identical sets of blocks for each of you.",
+            "Start building your own tower silently.",
+            "If toddler looks at you, smile and keep building — no instructions.",
+            "Comment on what you see: 'I'm making a tall one!'.",
+            "When they knock theirs down, react warmly: 'oops! build it again?'"
+          ],
+          "tip": "Parallel play teaches toddlers to share space and enjoy others nearby — the step before cooperative play.",
+          "image_url": null,
+          "image_keywords": ["toddler parallel play blocks", "child social play"],
+          "domain_focus": "Social Engagement",
+          "is_priority": false
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "theme": "Independence & Story",
+      "activities": [
+        {
+          "title": "Unassisted Stair Climb",
+          "description": "Let toddler attempt 3 stairs alone while you spot — reduce hand-holding from earlier this week.",
+          "duration": "2 minutes",
+          "steps": [
+            "Stand directly behind toddler at the base of 3 stairs.",
+            "Say 'you can do it — up you go!'.",
+            "Keep both hands out to spot but do not hold — let toddler self-initiate each step.",
+            "Only catch if they lose balance.",
+            "After 3 stairs, bring them down holding hands and repeat twice."
+          ],
+          "tip": "Removing your hand on Day 7 is the test of the week's motor work — celebrating their independence builds confidence for the next challenge.",
+          "image_url": null,
+          "image_keywords": ["toddler climbing stairs alone", "child stair independence"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "Tell Me the Story",
+          "description": "Hold up a familiar book and ask toddler to tell you what they see — you listen and expand their words.",
+          "duration": "2 minutes",
+          "steps": [
+            "Open a familiar picture book to a page toddler knows well.",
+            "Point to the main image and say 'what do you see?'.",
+            "Wait 5 seconds — if they say one word (e.g. 'dog'), expand it: 'yes, a big dog!'.",
+            "Turn the page and ask again: 'what happened next?'.",
+            "Do 4 pages. Let toddler lead."
+          ],
+          "tip": "Expanding single words into short sentences — without correcting — is the single most effective language strategy for this age.",
+          "image_url": null,
+          "image_keywords": ["toddler storytelling book", "child language expansion"],
+          "domain_focus": "Communication",
+          "is_priority": true
+        },
+        {
+          "title": "Helper Role",
+          "description": "Give toddler a simple task to help you — carry a light item, put something away — and thank them.",
+          "duration": "1 minute",
+          "steps": [
+            "Hold a soft item (like a folded cloth) and say 'can you help me put this away?'.",
+            "Walk with toddler to where it belongs.",
+            "Let them place it themselves.",
+            "Say 'thank you so much! you are such a good helper!'.",
+            "Give them one more simple task."
+          ],
+          "tip": "Being a 'helper' builds toddlers' sense of identity and belonging — the foundation of social confidence.",
+          "image_url": null,
+          "image_keywords": ["toddler helping parent", "child household task"],
+          "domain_focus": "Social Engagement",
+          "is_priority": false
+        }
+      ]
+    }
+  ],
+  "general_tips": [
+    "At 18 months with two priority domains, keep each session short (1-2 minutes max) and fun — frustration is the enemy of learning.",
+    "Expand every word your toddler says into a short sentence immediately — 'ball' becomes 'yes, red ball!' — without correcting them.",
+    "Build activities into existing routines (meal prep, bath time, getting dressed) so they happen daily without extra scheduling effort.",
+    "Celebrate effort, not outcome — a failed throw or a mispronounced word still earns a warm 'great try!'.",
+    "Both priority domains improve faster when addressed together — motor play that requires instruction combines both targets in one activity."
+  ]
+}

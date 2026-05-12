@@ -1,0 +1,35 @@
+{
+  "_scenario": "Infant 2 months — Motor Development needs improvement (Z-score 63.5 < 65)",
+  "_mode_note": "MONITOR: early gaps detected, light preventative activities",
+  "mode": "MONITOR",
+  "age_months": 2,
+  "domain1": {
+    "name": "Motor Development",
+    "zscore": 63.5
+  },
+  "domain2": {
+    "name": "Communication",
+    "zscore": 72.0
+  },
+  "domain3": {
+    "name": "Social Engagement",
+    "zscore": 70.5
+  },
+  "day1_activities": [
+    {
+      "title": "Tummy Time Reach",
+      "description": "Place baby on tummy and hold a bright toy just out of reach. Do 2-3 sessions a day for 40 seconds.",
+      "image_url": null
+    },
+    {
+      "title": "Face Talk",
+      "description": "Hold baby 30 cm away and make exaggerated facial expressions. Wait for baby to respond.",
+      "image_url": null
+    },
+    {
+      "title": "Wobble Balance",
+      "description": "Tilt baby gently side to side while holding them safely. Helps them feel balance.",
+      "image_url": null
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "_scenario": "Infant 2 months — Motor Development priority. Actual LLM content will vary; structure must match exactly.",
+  "child_summary": "This 7-day plan focuses on strengthening Motor Development for your 2-month-old in MONITOR mode. Communication and Social Engagement are on-track. At least 2 of 3 daily activities target motor skills, progressing gently from Day 2 to Day 7.",
+  "focus_domains": [
+    "Motor Development"
+  ],
+  "plan": [
+    {
+      "day": 1,
+      "theme": "Introduction Day",
+      "activities": [
+        {
+          "title": "Tummy Time Reach",
+          "description": "Place baby on tummy and hold a bright toy just out of reach. Do 2-3 sessions a day for 40 seconds.",
+          "duration": "~1 minute",
+          "steps": [
+            "Place baby on tummy and hold a bright toy just out of reach. Do 2-3 sessions a day for 40 seconds."
+          ],
+          "tip": "Observe how your child responds and note any new reactions today.",
+          "image_url": null,
+          "image_keywords": ["tummy", "time", "reach"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "Face Talk",
+          "description": "Hold baby 30 cm away and make exaggerated facial expressions. Wait for baby to respond.",
+          "duration": "~1 minute",
+          "steps": [
+            "Hold baby 30 cm away and make exaggerated facial expressions. Wait for baby to respond."
+          ],
+          "tip": "Observe how your child responds and note any new reactions today.",
+          "image_url": null,
+          "image_keywords": ["face", "talk"],
+          "domain_focus": "Communication",
+          "is_priority": false
+        },
+        {
+          "title": "Wobble Balance",
+          "description": "Tilt baby gently side to side while holding them safely. Helps them feel balance.",
+          "duration": "~1 minute",
+          "steps": [
+            "Tilt baby gently side to side while holding them safely. Helps them feel balance."
+          ],
+          "tip": "Observe how your child responds and note any new reactions today.",
+          "image_url": null,
+          "image_keywords": ["wobble", "balance"],
+          "domain_focus": "Social Engagement",
+          "is_priority": false
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "Wiggle & Discover",
+      "activities": [
+        {
+          "title": "Gentle Limb Swings",
+          "description": "Gently move baby's arms and legs in small circles to promote body awareness and muscle engagement.",
+          "duration": "1 minute",
+          "steps": [
+            "Lay baby on their back on a soft, flat surface.",
+            "Gently hold one arm and move it in a slow circle 5 times.",
+            "Repeat with the other arm.",
+            "Gently hold each leg and move in slow circles 5 times each."
+          ],
+          "tip": "Moving your baby's limbs helps them explore their body's range of motion and builds early muscle memory.",
+          "image_url": null,
+          "image_keywords": ["baby limb movement", "infant arm exercise"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "Tummy Time with Mirror",
+          "description": "Place a small unbreakable mirror in front of baby during tummy time to motivate head lifting.",
+          "duration": "40 seconds",
+          "steps": [
+            "Lay baby on their tummy on a firm mat.",
+            "Place a small unbreakable mirror 20 cm in front of baby's face.",
+            "Wait quietly — baby will naturally lift their head to look.",
+            "Praise any head lift with a warm smile."
+          ],
+          "tip": "Lifting the head against gravity is the key early step for neck and shoulder strength.",
+          "image_url": null,
+          "image_keywords": ["baby tummy time mirror", "infant prone play"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "Sound & Turn",
+          "description": "Make gentle sounds from different sides of baby's head to encourage them to turn toward the source.",
+          "duration": "1 minute",
+          "steps": [
+            "Lay baby on their back.",
+            "Hold a soft squeaky toy 30 cm to their left and give one gentle squeeze.",
+            "Wait 5 seconds for baby to turn their head.",
+            "Repeat on the right side. Do 3 rounds per side."
+          ],
+          "tip": "Turning toward sound trains both communication awareness and neck rotation at the same time.",
+          "image_url": null,
+          "image_keywords": ["baby listening toy", "infant sound response"],
+          "domain_focus": "Communication",
+          "is_priority": false
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "Strength & Reach",
+      "activities": [
+        {
+          "title": "Chest-Lift Tummy Time",
+          "description": "Roll a small towel under baby's chest during tummy time to help them hold their head higher for longer.",
+          "duration": "50 seconds",
+          "steps": [
+            "Roll a small hand towel into a tight log shape.",
+            "Lay baby on tummy and slide the towel under their chest so shoulders are slightly raised.",
+            "Place a colorful toy 25 cm in front at eye level.",
+            "Encourage them to look up at the toy for 3 seconds, rest, repeat."
+          ],
+          "tip": "The towel reduces gravitational load so baby can practice head lifting longer, building endurance faster.",
+          "image_url": null,
+          "image_keywords": ["baby tummy time towel", "infant chest lift"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "Arm Pull-Up",
+          "description": "Gently hold baby's wrists and slowly pull toward sitting to engage their core and neck.",
+          "duration": "30 seconds",
+          "steps": [
+            "Lay baby on their back on a firm surface.",
+            "Gently wrap your fingers around both wrists.",
+            "Slowly pull their arms upward, lifting their upper body just 5 cm off the mat.",
+            "Hold 2 seconds, lower smoothly. Repeat 3 times."
+          ],
+          "tip": "Assisted pull-ups activate core muscles and help baby begin to understand their own body weight.",
+          "image_url": null,
+          "image_keywords": ["baby pull to sit", "infant core strength"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "Face Chat",
+          "description": "Hold baby face-to-face and make slow expressions — smile, surprise — then wait for imitation.",
+          "duration": "1 minute",
+          "steps": [
+            "Hold baby at arm's length, faces 25 cm apart.",
+            "Make a big smile, hold 3 seconds.",
+            "Switch to a wide surprised face, hold 3 seconds.",
+            "Wait silently 5 seconds after each — give baby time to respond."
+          ],
+          "tip": "Facial imitation is the earliest form of social learning — pauses teach baby that communication is two-way.",
+          "image_url": null,
+          "image_keywords": ["parent baby face interaction", "infant social smile"],
+          "domain_focus": "Social Engagement",
+          "is_priority": false
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "theme": "Balance & Connection",
+      "activities": [
+        {
+          "title": "Forearm Weight Bear",
+          "description": "Position baby on tummy with elbows directly under shoulders to bear weight on forearms.",
+          "duration": "45 seconds",
+          "steps": [
+            "Lay baby on tummy on a firm mat.",
+            "Gently position elbows directly below shoulders, forearms flat.",
+            "Place hands lightly on upper back for encouragement — do not push.",
+            "Hold a toy at eye level 20 cm away for 5 seconds, then lower for rest."
+          ],
+          "tip": "Forearm weight-bearing builds the shoulder stability needed for rolling and sitting.",
+          "image_url": null,
+          "image_keywords": ["baby forearm prop tummy time", "infant prone elbows"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "Side-Lying Reach",
+          "description": "Roll baby onto their side and place a toy just out of reach so they practice reaching across their midline.",
+          "duration": "40 seconds per side",
+          "steps": [
+            "Roll baby onto their right side, supported by a rolled blanket at their back.",
+            "Hold a bright toy 15 cm in front of their left hand.",
+            "Wait 5 seconds for baby to reach across.",
+            "Switch sides and repeat."
+          ],
+          "tip": "Crossing the midline trains the core rotation muscles that baby needs for rolling.",
+          "image_url": null,
+          "image_keywords": ["baby side lying reach", "infant midline crossing"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "Name Game",
+          "description": "Say baby's name in different tones and watch for them to still or look toward your voice.",
+          "duration": "1 minute",
+          "steps": [
+            "Sit 30 cm from baby while they lie on their back.",
+            "Say their name once in a soft whisper, wait 5 seconds.",
+            "Say their name in a sing-song rhythm, wait 5 seconds.",
+            "Watch for stillness, eye movement, or head turn."
+          ],
+          "tip": "Recognizing their own name is one of the first language milestones.",
+          "image_url": null,
+          "image_keywords": ["parent talking baby", "infant name recognition"],
+          "domain_focus": "Communication",
+          "is_priority": false
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "theme": "Coordination & Play",
+      "activities": [
+        {
+          "title": "Guided Roll — Side to Back",
+          "description": "From a side-lying position, gently guide baby's hip so they complete a roll onto their back.",
+          "duration": "1 minute",
+          "steps": [
+            "Roll baby onto their right side and let them settle 3 seconds.",
+            "Place your left hand lightly on their right hip.",
+            "Very gently nudge the hip forward so baby rolls onto their back.",
+            "Celebrate and repeat on the left side."
+          ],
+          "tip": "Facilitated rolling teaches the movement pattern before baby has the strength to do it alone.",
+          "image_url": null,
+          "image_keywords": ["baby rolling practice", "infant roll assist"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "Grasp & Shake",
+          "description": "Press a lightweight rattle into baby's palm so they reflexively grasp it, then gently shake their hand so they hear the sound.",
+          "duration": "1 minute",
+          "steps": [
+            "Hold a lightweight rattle near baby's open palm.",
+            "Touch the handle to their palm — they will close fingers around it.",
+            "Gently move their hand up and down so the rattle sounds.",
+            "Let them hold 10 seconds, then repeat."
+          ],
+          "tip": "Cause and effect — I shake, I hear — is one of the earliest cognitive-motor links babies develop.",
+          "image_url": null,
+          "image_keywords": ["baby grasp rattle", "infant hand grip toy"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "Peek-a-Boo Cloth",
+          "description": "Cover your face with a thin muslin cloth and pull it away with a 'boo!' to spark early object awareness.",
+          "duration": "1 minute",
+          "steps": [
+            "Hold baby in a supported recline.",
+            "Hold a thin muslin cloth at chin level.",
+            "Raise it to cover your face, pause 2 seconds.",
+            "Pull it away quickly and say 'Boo!' with a big smile. Repeat 4 times."
+          ],
+          "tip": "Anticipating your reappearance is baby's first lesson in object permanence.",
+          "image_url": null,
+          "image_keywords": ["parent baby peek a boo", "infant object permanence"],
+          "domain_focus": "Social Engagement",
+          "is_priority": false
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "theme": "Active Exploration",
+      "activities": [
+        {
+          "title": "Over-Thigh Tummy Time",
+          "description": "Drape baby over your thigh on their tummy so their head hangs slightly, encouraging lifting against gravity.",
+          "duration": "45 seconds",
+          "steps": [
+            "Sit on the floor with legs stretched out.",
+            "Drape baby over your right thigh, tummy on your leg, head facing slightly down.",
+            "Support their hips with one hand.",
+            "Let baby lift their head against gravity. Hold a toy as incentive. Do 3 short lifts."
+          ],
+          "tip": "Changing the angle of tummy time works different muscle groups — variety builds strength faster.",
+          "image_url": null,
+          "image_keywords": ["baby tummy time over thigh", "infant prone elevated"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "Hands-to-Mouth Guide",
+          "description": "Guide baby's hands toward their mouth so they begin to discover their own body intentionally.",
+          "duration": "45 seconds",
+          "steps": [
+            "Lay baby on their back in a relaxed position.",
+            "Gently hold both wrists and slowly bring hands together above their chest.",
+            "Guide hands toward their mouth and let them touch their lips.",
+            "Release and watch if they try independently. Repeat 3 times."
+          ],
+          "tip": "Hands-to-mouth is a self-soothing milestone — baby is beginning to understand where their body ends.",
+          "image_url": null,
+          "image_keywords": ["baby hands to mouth", "infant self discovery"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "Copy My Sound",
+          "description": "Make simple vowel sounds — aah, ooh, eeh — pause, and wait for baby to vocalize back.",
+          "duration": "1 minute",
+          "steps": [
+            "Hold baby face-to-face at arm's length.",
+            "Make a clear 'aah' sound, hold 2 seconds, then stop.",
+            "Lean forward and wait silently 8 seconds.",
+            "If baby vocalizes — any sound counts — mirror it back. Try 3 different vowels."
+          ],
+          "tip": "These vowel exchanges are the foundation of turn-taking — baby is learning their voice gets a response.",
+          "image_url": null,
+          "image_keywords": ["parent baby vowel sounds", "infant pre-speech"],
+          "domain_focus": "Communication",
+          "is_priority": false
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "theme": "Building Independence",
+      "activities": [
+        {
+          "title": "Solo Tummy Time Challenge",
+          "description": "Let baby attempt tummy time without your hand on their back — spot from close range to build confidence.",
+          "duration": "1 minute",
+          "steps": [
+            "Place baby on tummy on a firm mat with a mirror or toy in front.",
+            "Keep your hands 2 cm from their sides but do not touch.",
+            "If baby struggles after 10 seconds, place one finger on their back briefly, then remove.",
+            "Aim for 2 independent head lifts. Celebrate every attempt."
+          ],
+          "tip": "Reducing your support builds baby's proprioception — their sense of their own body in space.",
+          "image_url": null,
+          "image_keywords": ["baby independent tummy time", "infant head lift solo"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "Full-Field Toy Tracking",
+          "description": "Move a brightly colored toy slowly across baby's full visual field — left to right, then top to bottom.",
+          "duration": "1 minute",
+          "steps": [
+            "Lay baby on their back in a calm, well-lit room.",
+            "Hold a red or yellow toy 25 cm from baby's face.",
+            "Move it slowly to the right over 5 seconds, then back to center.",
+            "Move it slowly downward over 5 seconds. Watch eyes track the full path."
+          ],
+          "tip": "Smooth visual tracking shows that the motor pathways between eyes and brain are maturing well.",
+          "image_url": null,
+          "image_keywords": ["baby visual tracking toy", "infant eye follow"],
+          "domain_focus": "Motor Development",
+          "is_priority": true
+        },
+        {
+          "title": "Second-Person Smile",
+          "description": "Hold baby facing outward so a second caregiver can approach slowly and earn a social smile.",
+          "duration": "1 minute",
+          "steps": [
+            "Hold baby facing outward, supported under arms and bottom.",
+            "Ask a second person to approach slowly from 1 meter away with a calm, smiling face.",
+            "Encourage the second person to call baby's name softly twice.",
+            "Watch for baby to still, make eye contact, and smile."
+          ],
+          "tip": "Expanding baby's social circle from one familiar face to two teaches them that multiple people are safe.",
+          "image_url": null,
+          "image_keywords": ["baby social smile caregiver", "infant sibling interaction"],
+          "domain_focus": "Social Engagement",
+          "is_priority": false
+        }
+      ]
+    }
+  ],
+  "general_tips": [
+    "Do tummy time on a firm surface only — a soft mattress reduces the resistance baby needs to build strength.",
+    "Watch for tired cues (turning away, fussing) and always end before baby hits their limit.",
+    "Narrate everything in a calm voice — this combines language exposure with every motor activity.",
+    "Consistency matters more than duration — 3 sessions of 40 seconds beats one session of 2 minutes.",
+    "Motor progress at this age is nonlinear — some days baby will do less. That is normal; keep going."
+  ]
+}
