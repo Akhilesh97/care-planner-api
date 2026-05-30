@@ -80,6 +80,20 @@
             Fill the form or pick a scenario, then generate a plan. Render free services may take a moment to wake up.
           </div>
 
+          <div id="progress" class="progress hidden">
+            <div class="progress-step active">Validate</div>
+            <div class="progress-step">Generate</div>
+            <div class="progress-step">Render</div>
+          </div>
+
+          <div id="resultControls" class="result-controls hidden">
+            <div id="dayFilters" class="day-filters" aria-label="Filter by day"></div>
+            <div class="result-actions">
+              <button class="secondary compact" type="button" id="copyBtn">Copy JSON</button>
+              <button class="secondary compact" type="button" id="downloadBtn">Download</button>
+            </div>
+          </div>
+
           <div id="summary" class="summary hidden"></div>
           <div id="tips" class="tips hidden"></div>
           <div id="plan" class="plan-list"></div>

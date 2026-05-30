@@ -58,10 +58,18 @@ const submitBtn = document.querySelector("#submitBtn");
 const healthBtn = document.querySelector("#healthBtn");
 const statusPill = document.querySelector("#statusPill");
 const message = document.querySelector("#message");
+const progress = document.querySelector("#progress");
+const resultControls = document.querySelector("#resultControls");
+const dayFilters = document.querySelector("#dayFilters");
+const copyBtn = document.querySelector("#copyBtn");
+const downloadBtn = document.querySelector("#downloadBtn");
 const summary = document.querySelector("#summary");
 const tips = document.querySelector("#tips");
 const plan = document.querySelector("#plan");
 const resultTitle = document.querySelector("#resultTitle");
+
+let latestPlan = null;
+let selectedDay = "all";
 
 function setStatus(text, kind = "") {
   statusPill.textContent = text;
@@ -71,6 +79,13 @@ function setStatus(text, kind = "") {
 function setMessage(text, kind = "") {
   message.textContent = text;
   message.className = `message ${kind}`.trim();
+}
+
+function setProgress(stepIndex) {
+  progress.classList.remove("hidden");
+  [...progress.querySelectorAll(".progress-step")].forEach((step, index) => {
+    step.classList.toggle("active", index <= stepIndex);
+  });
 }
 
 function cleanBaseUrl() {
@@ -174,8 +189,27 @@ function renderTips(items = []) {
   tips.classList.toggle("hidden", items.length === 0);
 }
 
+function renderControls(days = []) {
+  dayFilters.innerHTML = [
+    `<button class="day-filter ${selectedDay === "all" ? "active" : ""}" type="button" data-day="all">All</button>`,
+    ...days.map((day) => (
+      `<button class="day-filter ${String(day.day) === String(selectedDay) ? "active" : ""}" type="button" data-day="${escapeHtml(day.day)}">Day ${escapeHtml(day.day)}</button>`
+    )),
+  ].join("");
+  resultControls.classList.toggle("hidden", days.length === 0);
+}
+
 function renderPlan(days = []) {
-  plan.innerHTML = days.map((day) => `
+  const visibleDays = selectedDay === "all"
+    ? days
+    : days.filter((day) => String(day.day) === String(selectedDay));
+
+  if (visibleDays.length === 0) {
+    plan.innerHTML = '<div class="empty-state">No activities for this filter.</div>';
+    return;
+  }
+
+  plan.innerHTML = visibleDays.map((day) => `
     <article class="day">
       <div class="day-heading">
         <h3>Day ${escapeHtml(day.day)}: ${escapeHtml(day.theme)}</h3>
@@ -194,22 +228,71 @@ function renderActivity(activity) {
   const steps = (activity.steps || [])
     .map((step) => `<li>${escapeHtml(step)}</li>`)
     .join("");
+  const keywords = (activity.image_keywords || [])
+    .map((keyword) => `<span class="keyword">${escapeHtml(keyword)}</span>`)
+    .join("");
 
   return `
-    <div class="activity-card">
+    <div class="activity-card collapsed">
       ${image}
       <div>
         <div class="activity-meta">
           <span class="badge ${activity.is_priority ? "priority" : ""}">${escapeHtml(activity.domain_focus)}</span>
           <span class="duration">${escapeHtml(activity.duration)}</span>
         </div>
-        <h3>${escapeHtml(activity.title)}</h3>
-        <p>${escapeHtml(activity.description)}</p>
-        <ol class="steps">${steps}</ol>
-        <div class="activity-tip">${escapeHtml(activity.tip)}</div>
+        <div class="activity-title-row">
+          <h3>${escapeHtml(activity.title)}</h3>
+          <button class="toggle-activity" type="button" aria-label="Expand activity">+</button>
+        </div>
+        <div class="activity-body">
+          <p>${escapeHtml(activity.description)}</p>
+          <ol class="steps">${steps}</ol>
+          <div class="activity-tip">${escapeHtml(activity.tip)}</div>
+          <div class="keywords">${keywords}</div>
+        </div>
       </div>
     </div>
   `;
+}
+
+async function revealPlan(data) {
+  latestPlan = data;
+  selectedDay = "all";
+  resultTitle.textContent = "Generated care plan";
+  setStatus("Rendering", "ok");
+  setMessage("Plan generated. Laying it out day by day...");
+  setProgress(2);
+  renderSummary(data);
+  renderTips(data.general_tips || []);
+  renderControls(data.plan || []);
+
+  plan.replaceChildren();
+  for (const day of data.plan || []) {
+    const wrapper = document.createElement("div");
+    wrapper.innerHTML = renderDay(day);
+    plan.appendChild(wrapper.firstElementChild);
+    await wait(140);
+  }
+
+  setStatus("Complete", "ok");
+  setMessage("Plan generated successfully. Use the day chips to focus the week, or expand activities for step-by-step detail.");
+  progress.classList.add("hidden");
+}
+
+function renderDay(day) {
+  return `
+    <article class="day">
+      <div class="day-heading">
+        <h3>Day ${escapeHtml(day.day)}: ${escapeHtml(day.theme)}</h3>
+        <span>${escapeHtml(day.activities?.length || 0)} activities</span>
+      </div>
+      ${(day.activities || []).map(renderActivity).join("")}
+    </article>
+  `;
+}
+
+function wait(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 async function checkHealth() {
@@ -240,12 +323,17 @@ async function generatePlan(event) {
   submitBtn.disabled = true;
   setStatus("Generating");
   setMessage("Generating the weekly plan. This can take a little while on a cold Render service.");
+  setProgress(0);
   resultTitle.textContent = "Generating plan";
+  latestPlan = null;
+  selectedDay = "all";
   summary.classList.add("hidden");
   tips.classList.add("hidden");
+  resultControls.classList.add("hidden");
   plan.replaceChildren();
 
   try {
+    setProgress(1);
     const response = await fetch(`${cleanBaseUrl()}/care-plan`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -254,19 +342,33 @@ async function generatePlan(event) {
     const data = await response.json();
     if (!response.ok) throw new Error(data.detail || `Request failed with ${response.status}`);
 
-    resultTitle.textContent = "Generated care plan";
-    setStatus("Complete", "ok");
-    setMessage("Plan generated successfully.");
-    renderSummary(data);
-    renderTips(data.general_tips || []);
-    renderPlan(data.plan || []);
+    await revealPlan(data);
   } catch (error) {
     resultTitle.textContent = "Generation failed";
     setStatus("Error", "error");
     setMessage(formatFetchError(error));
+    progress.classList.add("hidden");
   } finally {
     submitBtn.disabled = false;
   }
+}
+
+async function copyLatestPlan() {
+  if (!latestPlan) return;
+  await navigator.clipboard.writeText(JSON.stringify(latestPlan, null, 2));
+  setMessage("Copied the full JSON response to clipboard.");
+}
+
+function downloadLatestPlan() {
+  if (!latestPlan) return;
+  const blob = new Blob([JSON.stringify(latestPlan, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "care-plan.json";
+  link.click();
+  URL.revokeObjectURL(url);
+  setMessage("Downloaded care-plan.json.");
 }
 
 function formatFetchError(error) {
@@ -287,3 +389,20 @@ scenarioSelect.addEventListener("change", () => loadScenario(scenarioSelect.valu
 apiBaseInput.addEventListener("change", () => localStorage.setItem("carePlannerApiBase", cleanBaseUrl()));
 healthBtn.addEventListener("click", checkHealth);
 form.addEventListener("submit", generatePlan);
+copyBtn.addEventListener("click", copyLatestPlan);
+downloadBtn.addEventListener("click", downloadLatestPlan);
+dayFilters.addEventListener("click", (event) => {
+  const button = event.target.closest(".day-filter");
+  if (!button || !latestPlan) return;
+  selectedDay = button.dataset.day;
+  renderControls(latestPlan.plan || []);
+  renderPlan(latestPlan.plan || []);
+});
+plan.addEventListener("click", (event) => {
+  const button = event.target.closest(".toggle-activity");
+  if (!button) return;
+  const card = button.closest(".activity-card");
+  const collapsed = card.classList.toggle("collapsed");
+  button.textContent = collapsed ? "+" : "-";
+  button.setAttribute("aria-label", collapsed ? "Expand activity" : "Collapse activity");
+});
