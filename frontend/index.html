@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Neev Care Planner</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="workspace" aria-label="Care plan builder">
+        <form id="plannerForm" class="panel input-panel">
+          <div class="topbar">
+            <div>
+              <p class="eyebrow">Neev Care Planner</p>
+              <h1>Build a 7-day home activity plan</h1>
+            </div>
+            <a class="docs-link" href="/docs" target="_blank" rel="noreferrer">API Docs</a>
+          </div>
+
+          <label class="field">
+            <span>API Base URL</span>
+            <input id="apiBase" name="apiBase" type="url" value="https://care-planner-api-fmp7.onrender.com" autocomplete="off">
+          </label>
+
+          <div class="field">
+            <span>Assessment Mode</span>
+            <div class="segmented" role="radiogroup" aria-label="Assessment mode">
+              <label><input type="radio" name="mode" value="LEARN"><span>Learn</span></label>
+              <label><input type="radio" name="mode" value="MONITOR" checked><span>Monitor</span></label>
+              <label><input type="radio" name="mode" value="CONCERN"><span>Concern</span></label>
+            </div>
+          </div>
+
+          <div class="grid two">
+            <label class="field">
+              <span>Age in months</span>
+              <input id="ageMonths" name="ageMonths" type="number" min="0" max="216" value="2">
+            </label>
+            <div class="field">
+              <span>Scenario</span>
+              <select id="scenario">
+                <option value="infant">Infant, motor priority</option>
+                <option value="toddler">Toddler, two priorities</option>
+                <option value="child">6 months, all on track</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="section-title">
+            <h2>Domain scores</h2>
+            <p>Scores below 65 become priority domains.</p>
+          </div>
+
+          <div id="domains" class="domain-list"></div>
+
+          <div class="section-title">
+            <h2>Day 1 activities</h2>
+            <p>Exactly three starter activities.</p>
+          </div>
+
+          <div id="activities" class="activity-list"></div>
+
+          <div class="actions">
+            <button class="secondary" type="button" id="healthBtn">Check Health</button>
+            <button class="primary" type="submit" id="submitBtn">Generate Plan</button>
+          </div>
+        </form>
+
+        <section class="panel output-panel" aria-live="polite">
+          <div class="result-header">
+            <div>
+              <p class="eyebrow">Weekly Plan</p>
+              <h2 id="resultTitle">Ready when you are</h2>
+            </div>
+            <div id="statusPill" class="status-pill">Idle</div>
+          </div>
+
+          <div id="message" class="message">
+            Fill the form or pick a scenario, then generate a plan. Render free services may take a moment to wake up.
+          </div>
+
+          <div id="summary" class="summary hidden"></div>
+          <div id="tips" class="tips hidden"></div>
+          <div id="plan" class="plan-list"></div>
+        </section>
+      </section>
+    </main>
+
+    <template id="domainTemplate">
+      <div class="domain-row">
+        <label class="field">
+          <span>Domain</span>
+          <input class="domain-name" type="text">
+        </label>
+        <label class="field score-field">
+          <span>Z-score</span>
+          <input class="domain-score" type="number" min="0" max="100" step="0.1">
+        </label>
+      </div>
+    </template>
+
+    <template id="activityTemplate">
+      <div class="activity-row">
+        <label class="field">
+          <span>Title</span>
+          <input class="activity-title" type="text">
+        </label>
+        <label class="field">
+          <span>Description</span>
+          <textarea class="activity-description" rows="2"></textarea>
+        </label>
+      </div>
+    </template>
+
+    <script src="/static/app.js" defer></script>
+  </body>
+</html>

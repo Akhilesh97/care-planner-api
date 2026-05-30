@@ -27,6 +27,9 @@ from typing import Optional
 import httpx
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 from care_planner_llm import call_llm, LLM_PROVIDER, OPENAI_MODEL, GEMINI_MODEL
@@ -41,6 +44,17 @@ app = FastAPI(
     ),
     version="1.0.0",
 )
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+if os.path.isdir("frontend"):
+    app.mount("/static", StaticFiles(directory="frontend"), name="static")
 
 # ─── Constants ─────────────────────────────────────────────────────────────
 
@@ -292,6 +306,14 @@ async def _generate_plan(req: CarePlanRequest) -> CarePlanResponse:
     )
 
 # ─── Endpoints ───────────────────────────────────────────────────────────────
+
+@app.get("/", include_in_schema=False)
+def frontend():
+    """Serve the care planner frontend when available."""
+    index_path = os.path.join("frontend", "index.html")
+    if os.path.exists(index_path):
+        return FileResponse(index_path)
+    return {"service": "Neev Care Planner API", "docs": "/docs"}
 
 @app.get("/health", tags=["Utility"])
 def health_check():

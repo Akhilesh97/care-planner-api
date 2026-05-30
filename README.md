@@ -14,6 +14,12 @@ uvicorn care_planner_api:app --reload --port 8001
 
 Open `http://localhost:8001/docs`.
 
+The frontend is served by the API at:
+
+```text
+http://localhost:8001/
+```
+
 ## Deploy on Render
 
 This repo includes `render.yaml`, so you can deploy it as a Render Blueprint.
@@ -30,6 +36,12 @@ Render health checks `/health`, and the API docs will be available at:
 
 ```text
 https://<your-render-service>.onrender.com/docs
+```
+
+The frontend will be available at:
+
+```text
+https://<your-render-service>.onrender.com/
 ```
 
 OpenAPI JSON is available at:
